@@ -1,0 +1,64 @@
+.bid-amount{
+    background-color: transparent!important;
+    color: white;
+    text-align: right;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.bid-label{
+    color: white;
+    text-align: right   ;
+    position:   relative;
+    top: -30px;
+    
+  
+    padding: 0px 5px;
+  
+    transition: 0.3s;
+    pointer-events: none;
+    
+}
+
+/* input:focus ~ label,
+input:valid ~ label{
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 2px;
+  background: #060b23;
+} */
+:not(#bid:placeholder-shown) + .bid-label
+{
+    top: -55px;
+    font-size: smaller;
+    
+}
+
+#bid:focus{
+    outline: none;
+    border-bottom: 2px solid #4d8bce    !important;
+}
+
+.custombtn{
+    width: 20% !important;
+    background-color: #4d8bce !important;
+    color: white!important;
+
+}
+.bid-btn{
+    background-color: #4d8bce !important;
+    color: white!important;
+
+}
+.bid-wrapper{
+    background-image: url('../../assets/gwi.png');
+    background-color: rgba(0,0,0,0.7);
+    background-size: contain;
+    background-position: center;
+    background-repeat:round;
+    background-position-y: top;
+    background-blend-mode: darken;
+    padding-top: 0px!important;
+    padding: 0.5rem ;
+}

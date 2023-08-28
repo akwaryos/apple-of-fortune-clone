@@ -1,0 +1,76 @@
+
+.multiplier{
+    color: white;
+    font-weight: 400;
+    font-size:x-small;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 70%!important;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 35%;
+    margin-right: 15%;
+}
+
+
+.button-container{
+    height: 45px!important;
+    margin: 0px!important;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+}
+.multiplier-container{
+    vertical-align: middle;
+    width: 27%;
+    margin-right: 8%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.apples-column-container{
+    display: flex;
+    width: 60%;
+    height: 45px;
+    justify-content: space-around;
+
+}
+.custom-table{
+    /* overflow: hidden; */
+    /* height: 150%; */
+    /* position: absolute; */
+    /* top: -400px; */
+    width: 100%;
+    display:  flex;
+    flex-direction: column;
+    justify-items: right;
+    overflow: scroll;
+height: 50vh!important;
+transform: translateY(10%);
+position: absolute;
+}
+
+.bidding-card{
+
+    --mask: linear-gradient(to top, 
+    rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 50%, 
+    rgba(0,0,0, 0.1) 90%, rgba(0,0,0, 0.1) 0
+) 100% 50% / 100% 100% repeat-x;
+-webkit-mask: var(--mask); 
+mask: var(--mask);
+    overflow: hidden;
+    overflow-x: scroll;
+    height: 100%!important;
+    width: 100%;
+    position:fixed;
+    display: block;
+    top: 100px;
+}

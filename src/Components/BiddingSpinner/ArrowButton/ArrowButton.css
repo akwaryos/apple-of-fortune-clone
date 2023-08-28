@@ -1,0 +1,20 @@
+.arrow:hover{
+    color: white;
+    cursor:pointer;
+}
+.arrow{
+    width: 45px;
+    height: 45px;
+}
+.arrow-button{
+    background-image: url('../../../assets/grass.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45px;
+    background-color: transparent;
+    border: none;
+    height: 45px;
+    border-radius: 6px;
+    
+}
